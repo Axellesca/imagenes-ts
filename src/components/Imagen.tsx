@@ -15,6 +15,14 @@ const Imagen = (args: imagen) => {
           {views}
         </p>
       </div>
+      <a
+        href={largeImageURL}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="rounded py-2 mx-2 mb-2 font-bold cursor-pointer text-center bg-red-500 block"
+      >
+        Ver Imagen
+      </a>
     </div>
   );
 };
